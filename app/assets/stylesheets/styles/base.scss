@@ -1,0 +1,16 @@
+.main {
+  width: 100%;
+  height: auto;
+  border: 1px solid red;
+}
+.grid {
+  max-width: 1080px;
+  height: 800px;
+  border: 1px solid;
+  margin: 0 auto;
+}
+.grid-item {
+  width: 400px;
+  height: 485px;
+  background-image: url(image-path('polaroid-frame.jpg'));
+}
