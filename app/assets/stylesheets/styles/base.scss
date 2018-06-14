@@ -4,13 +4,14 @@
   border: 1px solid red;
 }
 .grid {
-  max-width: 1080px;
-  height: 800px;
+  max-width: 1260px;
+  height: auto;
   border: 1px solid;
   margin: 0 auto;
 }
 .grid-item {
+  background-image: url(image-path('polaroid-frame.jpg'));
   width: 400px;
   height: 485px;
-  background-image: url(image-path('polaroid-frame.jpg'));
+  margin-bottom: 15px;
 }

@@ -8,7 +8,7 @@
     <% @posts.each do |post| %>
     <div class="grid-item">
       <h3><%= post.content %></h3>
-      <%= image_tag(post.image.url, alt: 'Image') if post.image? %>
+      <%= image_tag(post.image.grid.url, alt: 'Image') if post.image? %>
       <td><%= link_to 'Show', post %></td>
       <td><%= link_to 'Edit', edit_post_path(post) %></td>
       <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
